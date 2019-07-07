@@ -19,10 +19,10 @@
     "LICENSE"
   ],
   "scripts": {
-    "lint": "eslint . && jscs index.js test/",
+    "lint": "eslint .",
     "pretest": "npm run lint",
-    "test": "mocha --async-only",
-    "cover": "istanbul cover _mocha --report lcovonly",
+    "test": "nyc mocha --async-only",
+    "cover": "nyc cover _mocha --report lcovonly",
     "coveralls": "npm run cover && istanbul-coveralls"
   },
   "dependencies": {
@@ -32,14 +32,11 @@
     "stream-exhaust": "^1.0.1"
   },
   "devDependencies": {
-    "eslint": "^1.7.3",
-    "eslint-config-gulp": "^2.0.0",
-    "expect": "^1.19.0",
-    "istanbul": "^0.4.3",
-    "istanbul-coveralls": "^1.0.3",
-    "jscs": "^2.3.5",
-    "jscs-preset-gulp": "^1.0.0",
-    "mocha": "^2.4.5",
+    "eslint": "^6.0.1",
+    "eslint-config-gulp": "^3.0.1",
+    "expect": "^1.20.2",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
     "rx": "^4.0.6",
     "through2": "^2.0.0",
     "when": "^3.7.3"
