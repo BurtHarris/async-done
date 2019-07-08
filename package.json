@@ -32,6 +32,16 @@
     "stream-exhaust": "^1.0.1"
   },
   "devDependencies": {
+    "@types/end-of-stream": "^1.4.0",
+    "@types/expect": "^1.20.4",
+    "@types/gulp": "^4.0.6",
+    "@types/mocha": "^5.2.7",
+    "@types/next-tick": "^1.0.0",
+    "@types/node": "^0.12.23",
+    "@types/once": "^1.4.0",
+    "@types/rx": "^4.1.1",
+    "@types/through2": "^2.0.34",
+    "@types/when": "^2.4.33",
     "eslint": "^6.0.1",
     "eslint-config-gulp": "^3.0.1",
     "expect": "^1.20.2",
@@ -39,6 +49,7 @@
     "nyc": "^14.1.1",
     "rx": "^4.0.6",
     "through2": "^2.0.0",
+    "typescript": "^3.5.2",
     "when": "^3.7.3"
   },
   "keywords": [

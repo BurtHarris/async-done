@@ -1,4 +1,5 @@
 'use strict';
+// ts-check
 
 var expect = require('expect');
 
